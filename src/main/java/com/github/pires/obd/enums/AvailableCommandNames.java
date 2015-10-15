@@ -18,7 +18,7 @@ public enum AvailableCommandNames {
     MAF("Mass Air Flow"),
     THROTTLE_POS("Throttle Position"),
     TROUBLE_CODES("Trouble Codes"),
-    FUEL_LEVEL("Fuel Level"),
+    FUEL_LEVEL("Nivel de Combustible"),
     FUEL_TYPE("Fuel Type"),
     FUEL_CONSUMPTION_RATE("Fuel Consumption Rate"),
     TIMING_ADVANCE("Timing Advance"),
