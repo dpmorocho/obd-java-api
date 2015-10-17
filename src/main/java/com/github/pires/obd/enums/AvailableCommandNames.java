@@ -28,7 +28,7 @@ public enum AvailableCommandNames {
     CONTROL_MODULE_VOLTAGE("Módulo de control de voltaje"),
     ENGINE_FUEL_RATE("Tasa de combustible del motor"),
     FUEL_RAIL_PRESSURE("Presión del carril de combustible"),
-    VIN("Número de identificación del vehículo (VIN)"),
+    VIN("ID del vehículo (VIN)"),
     DISTANCE_TRAVELED_MIL_ON("Distancia recorrida con MIL"),
     TIME_TRAVELED_MIL_ON("Tiempo transcurrido con MIL"),
     TIME_SINCE_TC_CLEARED("Tiempo desde el último borrado de códigos"),
