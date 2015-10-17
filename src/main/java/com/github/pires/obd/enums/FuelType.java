@@ -8,28 +8,28 @@ import java.util.Map;
  * type of the vehicle.
  */
 public enum FuelType {
-    GASOLINE(0x01, "Gasoline"),
-    METHANOL(0x02, "Methanol"),
-    ETHANOL(0x03, "Ethanol"),
+    GASOLINE(0x01, "Gasolina"),
+    METHANOL(0x02, "Metanol"),
+    ETHANOL(0x03, "Etanol"),
     DIESEL(0x04, "Diesel"),
     LPG(0x05, "GPL/LGP"),
-    CNG(0x06, "Natural Gas"),
-    PROPANE(0x07, "Propane"),
-    ELECTRIC(0x08, "Electric"),
-    BIFUEL_GASOLINE(0x09, "Biodiesel + Gasoline"),
-    BIFUEL_METHANOL(0x0A, "Biodiesel + Methanol"),
-    BIFUEL_ETHANOL(0x0B, "Biodiesel + Ethanol"),
+    CNG(0x06, "Gas Natural"),
+    PROPANE(0x07, "Propano"),
+    ELECTRIC(0x08, "Eléctrico"),
+    BIFUEL_GASOLINE(0x09, "Biodiesel + Gasolina"),
+    BIFUEL_METHANOL(0x0A, "Biodiesel + Metanol"),
+    BIFUEL_ETHANOL(0x0B, "Biodiesel + Etanol"),
     BIFUEL_LPG(0x0C, "Biodiesel + GPL/LGP"),
-    BIFUEL_CNG(0x0D, "Biodiesel + Natural Gas"),
-    BIFUEL_PROPANE(0x0E, "Biodiesel + Propane"),
-    BIFUEL_ELECTRIC(0x0F, "Biodiesel + Electric"),
-    BIFUEL_GASOLINE_ELECTRIC(0x10, "Biodiesel + Gasoline/Electric"),
-    HYBRID_GASOLINE(0x11, "Hybrid Gasoline"),
-    HYBRID_ETHANOL(0x12, "Hybrid Ethanol"),
-    HYBRID_DIESEL(0x13, "Hybrid Diesel"),
-    HYBRID_ELECTRIC(0x14, "Hybrid Electric"),
-    HYBRID_MIXED(0x15, "Hybrid Mixed"),
-    HYBRID_REGENERATIVE(0x16, "Hybrid Regenerative");
+    BIFUEL_CNG(0x0D, "Biodiesel + Gas Natural"),
+    BIFUEL_PROPANE(0x0E, "Biodiesel + Propano"),
+    BIFUEL_ELECTRIC(0x0F, "Biodiesel + Eléctrico"),
+    BIFUEL_GASOLINE_ELECTRIC(0x10, "Biodiesel + Gasolina/Eléctrico"),
+    HYBRID_GASOLINE(0x11, "Gasolina híbrida"),
+    HYBRID_ETHANOL(0x12, "Etanol híbrido"),
+    HYBRID_DIESEL(0x13, "Diesel híbrido"),
+    HYBRID_ELECTRIC(0x14, "Eléctrico híbrido"),
+    HYBRID_MIXED(0x15, "Híbrido mesclado"),
+    HYBRID_REGENERATIVE(0x16, "Híbrido regenerativo");
 
     private static Map<Integer, FuelType> map = new HashMap<Integer, FuelType>();
 
